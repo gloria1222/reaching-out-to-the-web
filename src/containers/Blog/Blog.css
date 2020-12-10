@@ -18,7 +18,9 @@
     color: black;
 }
 
-.Blog a:hover,
-.Blog a:active {
+.Blog a:hover,   /* 当鼠标放上去 */
+.Blog a:active,   /* 当鼠标点击 */
+.Blog a.active {  /* 当前链接时 */
     color: #fa923f;
 }
+
